@@ -1,0 +1,142 @@
+.vid-container {
+    width: 100%;
+    height: 100%;
+}
+
+.vid-container video {
+  width: auto;
+  display: block;
+}
+
+.embed-responsive-mobile {
+  position: absolute;
+  padding-bottom: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  width: 100%;
+  height: 100vh;
+  left: 0;
+}
+
+.vid-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.embed-responsive-mobile .vid-container {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.embed-responsive-mobile .vid-container video {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.vid-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+
+.loading .vid-controls {
+  display: none;
+}
+
+
+.vid-controls .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);;
+  -moz-transform: translate(-50%, -50%);;
+  -ms-transform: translate(-50%, -50%);;
+  width: 0;
+  height: 0;
+  display: none;
+  background: none;
+  text-indent: -99999px;
+  border-style: solid;
+  border-width: 20px 0 20px 30px;
+  border-color: transparent transparent transparent #c98959;
+  pointer-events: none;
+}
+
+.vid-container.paused .vid-controls {
+  background: rgba(0, 0, 0, .5);
+  cursor: pointer;
+}
+
+.vid-container.paused .play {
+  display: block;
+}
+
+.vid-controls .mute-unmute,
+.vid-controls .fullscreen {
+  background: url('../img/videos/speaker.svg') 50% 50% / contain no-repeat;
+  width: 30px;
+  height: 30px;
+  text-indent: -99999px;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  right: 70px;
+  bottom: 20px;
+}
+
+.vid-controls .fullscreen {
+  background: url('../img/videos/fullscreen.svg') 50% 50% / contain no-repeat;
+  bottom: 20px;
+  right: 20px;
+  width: 25px;
+  height: 30px;
+}
+
+.vid-container.muted .mute-unmute {
+  background-image: url('../img/videos/speaker-muted.svg');
+}
+
+body.fullsceen-video video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+body.fullscreen-video video::-webkit-media-controls {
+  /* display: none; */
+}
+
+body.fullscreen-video video::-internal-media-controls-download-button {
+    display:none!important;
+}
+
+body.fullscreen-video video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+body.fullscreen-video video::-webkit-media-controls-panel {
+  width: calc(100% + 30px); /* Adjust as needed */
+}
+.mobile body.fullscreen-video video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}

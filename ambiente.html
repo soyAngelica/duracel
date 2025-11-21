@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="es-MX" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- Site icons -->
+    <meta name="theme-color" content="#232323" />
+    <meta name="application-name" content="Duracell" />
+    <link rel="shortcut icon" type="image/x-icon" href="img//favicon.ico">
+    <title>Duracell Auto</title>
+
+    <link rel='stylesheet'   href='css/main.css' type='text/css' media='all' />
+    <link rel='stylesheet'  href='css/bootstrap.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+
+
+    <script type='text/javascript' src='js/jquery-1.10.1.min.js'></script>
+    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+
+    <script type='text/javascript' src='js/owl.carousel.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 5,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 6000,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                responsive: {
+                  0: {
+                    items: 1,
+                  },
+                  600: {
+                    items: 3,
+                  },
+                  1000: {
+                    items: 3,
+                    margin: 20
+                  }
+                }
+              });
+
+              $('.play').on('click', function() {
+                owl.trigger('play.owl.autoplay', [1000])
+              })
+              $('.stop').on('click', function() {
+                owl.trigger('stop.owl.autoplay')
+              })
+            })
+    </script>
+    <!--<script type='text/javascript' src='js/main.js'></script>-->
+</head>
+<body>
+    <div class="site-wrapper about-us-page ">
+        <div class="wrapper-fluid navigation-top-bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-phone-12 clearfix">
+                        <div class="col-xs-12 col-md-3">
+                            <h1>
+                                <a href="index.html">
+                                    <span class="sr-only">duracell-logo</span>
+                                    <img src="img/Logo-Duracell.png" alt=""/>                    
+                                </a>
+                            </h1>
+                        </div>
+                        <div class=" col-xs-6 col-md-8 " id="righta">
+                            <div class="col-xs-6 col-md-4" style="padding:0px !important; margin:0px !important;">
+                                <img src="img/002-email.png" alt="" width="26" class="navicon">
+                                <a style="padding:0px !important; margin:0px !important;" href="mailto:cesi@duracellauto.com.mx">cesi@duracellauto.com.mx</a>
+                            </div>
+                            <div class="col-xs-6 col-md-4" style="padding:0px !important; margin:0px !important;">
+                                <img src="img/001-tel.png" alt="" width="26" class="navicon">
+                                <a style="padding:0px !important; margin:0px !important;" href="mailto:cesi@duracellauto.com.mx">01-800-ARRANCA (277 26 22)</a>
+                            </div>
+                            <div class="col-xs-2 col-md-4">
+                                <ul style="margin-top: 2px;padding: 0px !important;">
+                                    <li style="display:inline-block;"><a href="#">Español </a></li>
+                                    <li style="display:inline-block;"> | </li>
+                                    <li style="display:inline-block;"><a href="http://www.duracellauto.com.br/"> Portugués</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div id="hamburguer">
+                            <input id="menu-switch" type="checkbox">
+                            <label for="menu-switch" class="nav-toggle hidden-desktop-up"><span></span></label>
+                        </div>
+                        <!--<div class="col-xs-4 col-md-2 toptop">
+                            <div class="top-social">
+                                <a target="_blank" class="fb" href="https://www.facebook.com/DuracellLa/">
+                                    <span>Facebook</span>
+                                </a>
+                                <a target="_blank" class="tw" href="https://twitter.com/duracelllatino">
+                                    <span>Twitter</span>
+                                </a>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-fluid navigation-main ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-phone-12">
+                        <div class="nav-wrapper">
+                            <nav>
+                                <ul id="menu-primary-menu" class="menu clearfix js-primary-menu">
+                                    <li><a href="nosotros.html">Nosotros</a><li>
+                                    <li><a href="#">Medio Ambiente</a><li>                      
+                                    <li><a href="productos.php">Productos</a><li>                      
+                                    <li><a href="servicios.php">Servicios</a><li>                      
+                                    <li><a href="contacto.html">Contáctenos</a><li>          
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="row bannerone">
+               <img src="img/Banner-MedioAmbiente.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="wrapper-fluid our-history">
+            <div class="container ambiente">
+                <div class="row">
+                    <div class="col-phone-12">
+                        <div class="col-md-4 col-sm-12">
+                            <img src="img/Conejo-MA.png" id="conejo" alt="" class="hidden-tablet-down"/>
+                        </div>
+                        <div class="col-md-4 col-sm-12"><br><br>
+                            <h2 class="left-text">RECICLA</h2><br>
+                            <p>Conscientes de la importancia de cuidar el medio ambiente, Duracell ve como prioridad darle un respiro a nuestro planeta haciendo que cada uno de los acumuladores utilizados sean reciclados.</p>
+                            <p>Duracell cuenta con alianzas de plantas certificadas para el reciclaje que poseen personal experto y certificado.</p>
+                            <p>Contamos con la capacidad de recolección en Mexico y diferentes puntos de Latinoamérica.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <img src="img/Imagen-Reciclaje.png" width="240" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-phone-12">
+                        <div class="content">
+                            
+                        </div>
+                        <div class="box first right ambiental">
+                            <div class="milestone hidden-tablet-down"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-fluid our-history down ambiente  ">
+           <h2>LÓGICA REGRESIVA</h2><br>
+            <div class="container fondo_gray ambiente">
+                <div class="row">
+                    <div class="container">
+                        <div class="col-phone-12">
+                            <div class="col-md-6 col-sm-12"><br><br>
+                                <p>Logística Reversiva es un programa que responde al compromiso social con la protección del medio ambiente,
+                                garantizando el servicio de recolección y la adecuada disposición de baterías usadas al final de su vida útil.
+</p>
+                                <p class="">
+                                Este programa permite cerrar el ciclo de
+                                vida del producto, evitando que estos
+                                residuos generen impactos ambientales o
+                                afecten la salud de las personas.</p>
+                                <img src="img/Imagen-Ciclo2.png" alt="" class="top20" />
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <img src="img/Imagen-Ciclo.png" alt="" class="top20" width="100%" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ambiente top60">
+                <div class="box second left ambiental2">
+                    <div class="milestone hidden-tablet-down"></div>
+                </div>
+            </div>
+        </div>
+   
+        <div class="wrapper-fluid" id="tu-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-phone-12">
+                        <div id="plantas" class="top80">
+                            <h2>PLANTAS DE RECICLAJE CERTIFICADAS</h2>
+                            
+                            <div class="row owl-carousel owl-theme">
+                                <div class="col-sm-12 col-md-10 item">
+                                    <figure><img src="img/Certificado-1.png" alt=""  /></figure>
+                                    <h4>CERTIFICADO INDUSTRIA LIMPIA<br>Certificado ISO 9001:2008</h4>
+                                    <p>Este es otorgado a las empresas que cuentan con los más altos estándares de calidad en la
+                                    producción de productos y servicios así como fomentar las buenas prácticas empresariales.</p>
+                                </div>
+                                <div class="col-sm-12 col-md-10 item">
+                                    <figure><img src="img/Certificado-2.png" alt=""  /></figure>
+                                    <h4>Acreditación C-TPAT</h4>
+                                    <p>Esta acreditación otorga el gobierno de USA a las organizaciones que cumplen con las práctivas antiterrorista y que exportan productos a USA.</p>
+                                </div>
+                                <div class="col-sm-12 col-md-10 item">
+                                    <figure><img src="img/Certificado-3.png" alt=""  /></figure>
+                                    <h4>Certificado de Gestión de Calidad ISO/TS</h4>
+                                    <p>Este es otorgado a empresas que cumplen con los requisitos en la Gestión de Calidad en la producción de baterías para auto y motos</p>
+                                </div>
+                                <div class="col-sm-12 col-md-10 item">
+                                    <figure><img src="img/Certificado-4.png" alt=""  /></figure>
+                                    <h4>Certificado ISO 0001:2008</h4>
+                                    <p>Este es otorgado a las empresas con los estándares en el diseño, desarrollo y manufactura tipo plomo-ácido.</p>
+                                </div>
+                                <div class="col-sm-12 col-md-10 item">
+                                    <figure><img src="img/Certificado-5.png" alt=""  /></figure>
+                                    <h4>Certificado ISO 28000:2007</h4>
+                                    <p>Certificado internacional que se otorga a las empresas que cumplen los requisitos de un sistema de gestión de la seguridad de la cadena de suministro.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        <div class="wrapper footnav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-2" id="duracellblock">
+                        <div class="row">
+                            <div class="col-phone-6 col-tablet-6 col-desktop-12">
+                                <a href="https://www.duracell.mx">
+                                    <span class="sr-only">duracell-logo1</span>
+                                    <img src="img/Pila.png" class="logofoot" alt="">
+                                </a>
+                            </div>
+                            <!--<div class="col-phone-6 col-tablet-6 col-desktop-12">
+                                <ul class="social clearfix">
+                                    <li>
+                                        <a target="_blank" href="https://www.facebook.com/DuracellLa/">
+                                            <span class="sr-only">Facebook</span>
+                                            <img src="img/facebook.png" alt="Facebook" width="26">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://twitter.com/duracelllatino">
+                                            <span class="sr-only">Twitter</span>
+                                            <img src="img/twitter.png" alt="Twitter" width="26">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-2">
+                        <h2>NOSOTROS</h2>
+                        <div class="row">
+                            <div class="col-phone-12">
+                                <ul id="menu-productos" class="clearfix">
+                                    <li class="menu-item"><a href="#">Historia Duracell</a></li>
+                                    <li class="menu-item"><a href="#">Historia Bunny</a></li>
+                                    <li class="menu-item"><a href="#">Historia Duracell Auto </a></li>
+                                    <li class="menu-item"><a href="#">Duracell Auto en el mundo </a></li>
+                                </ul>                            
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-xs-12 col-md-2" id="ambiente">
+                        <h2>MEDIO AMBIENTE</h2>
+                        <div class="row">
+                            <div class="col-phone-12">
+                                <ul id="menu-productos" class="clearfix">
+                                    <li class="menu-item"><a href="#">Reciclaje</a></li>
+                                    <li class="menu-item"><a href="#">Logística Reversiva</a></li>
+                                    <li class="menu-item"><a href="#">Plantas de reciclaje certificadas</a></li>
+                                </ul>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-2">
+                        <h2>Productos</h2>
+                        <div class="row">
+                            <div class="col-phone-12">
+                                <ul id="menu-productos" class="clearfix">
+                                    <li class="menu-item"><a href="#">Tecnología</a>
+                                    </li>
+                                    <li class="menu-item"><a href="#">Ventajas Duracell</a>
+                                    </li>
+                                    <li class="menu-item"><a href="#">Categorías</a>
+                                    </li>
+                                    <li class="menu-item"><a href="#">Línea de productos</a>
+                                    </li>
+                                </ul>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-2">
+                        <h2>SERVICIOS</h2>
+                        <div class="row">
+                            <div class="col-phone-12">
+                                <ul id="menu-productos" class="clearfix">
+                                    <li class="menu-item"><a href="#">Centro de Servicio Duracell</a>
+                                    </li>
+                                    <li class="menu-item"><a href="#">Quieres ser vendedor exclusivo Duracell</a>
+                                    </li>
+                                    <li class="menu-item"><a href="#">Descargables</a></li>
+                                </ul>                            
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-xs-12 col-md-2">
+                        <h2>CONTACTO </h2>
+                        <div class="row">
+                            <div class="col-phone-12">
+                                <ul id="menu-productos" class="clearfix">
+                                  <li class="menu-item"><a href="#">Internacional </a></li>
+                                  <li class="menu-item"><a href="#">Contacto post venta </a></li>
+                                  <li class="menu-item"><a href="#">Quiero montar mi negocio </a></li>
+                                  <li class="menu-item"><a href="#">Venta a mayoreo</a></li>
+                                  <li class="menu-item"><a href="#">Otros países</a></li>
+                                  <li class="menu-item"><a href="#">Diagnostico</a></li>
+                                </ul>                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="wrapper footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <p>© 2018 Duracell Inc. Todos los derechos reservados.</p>
+                    </div>
+                    <!--<div class="col-xs-6 col-md-3 toptop2">
+                        <img src="img/001-email.png" alt="" width="26" class="navicon" /><a href="mailto:cesi@duracellauto.com.mx">cesi@duracellauto.com.mx</a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 toptop2">
+                        <img src="img/002-tel.png" alt="" width="26" class="navicon" /><a href="mailto:cesi@duracellauto.com.mx">01-800-ARRANCA (277 26 22)</a>
+                    </div>
+                    <div class="col-xs-12 col-md-2">
+                        <p>Aviso de Privacidad</p>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div><!-- .site-wrapper -->
+    <link rel='stylesheet' id='duracell-fonts-css'  href='//cloud.typography.com/6631714/6803172/css/fonts.css?ver=1.362.7' type='text/css' media='all' />
+    <style type="text/css">
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+        overflow: hidden;
+        -webkit-transform: translate3d(0,0,0);
+        margin-left: 40px;
+    }
+    .owl-theme .owl-controls .owl-page {
+    display: inline-block;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+
+    </style>
+</body>
+</html>
