@@ -109,7 +109,7 @@ document.onclick=reEnable
                             </div>
                             <div class="col-xs-2 col-md-4">
                                 <ul style="margin-top: 2px;padding: 0px !important;">
-                                    <li style="display:inline-block;"><a href="#">Español </a></li>
+                                    <li style="display:inline-block;"><a href="https://www.duracell-la.com/optimum/">Español </a></li>
                                     <li style="display:inline-block;"> | </li>
                                     <li style="display:inline-block;"><a href="http://www.duracellauto.com.br/"> Portugués</a></li>
                                 </ul>
@@ -142,8 +142,8 @@ document.onclick=reEnable
                                 <ul id="menu-primary-menu" class="menu clearfix js-primary-menu">
                                     <li><a href="nosotros.html">Nosotros</a><li>
                                     <li><a href="ambiente.html">Medio Ambiente</a><li>                      
-                                    <li><a href="#">Productos</a><li>                      
-                                    <li><a href="servicios.php">Servicios</a><li>                      
+                                    <li><a href="https://www.duracell-la.com/optimum/">Productos</a><li>                      
+                                    <li><a href="https://www.duracell-la.com/optimum/">Servicios</a><li>                      
                                     <li><a href="contacto.html">Contáctenos</a><li>          
                                 </ul>
                             </nav>
@@ -351,10 +351,10 @@ document.onclick=reEnable
                         <div class="row">
                             <div class="col-phone-12">
                                 <ul id="menu-productos" class="clearfix">
-                                    <li class="menu-item"><a href="#">Historia Duracell</a></li>
-                                    <li class="menu-item"><a href="#">Historia Bunny</a></li>
-                                    <li class="menu-item"><a href="#">Historia Duracell Auto </a></li>
-                                    <li class="menu-item"><a href="#">Duracell Auto en el mundo </a></li>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Historia Duracell</a></li>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Historia Bunny</a></li>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Historia Duracell Auto </a></li>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Duracell Auto en el mundo </a></li>
                                 </ul>                            
                             </div>
                         </div>
@@ -364,9 +364,9 @@ document.onclick=reEnable
                         <div class="row">
                             <div class="col-phone-12">
                                 <ul id="menu-productos" class="clearfix">
-                                    <li class="menu-item"><a href="#">Reciclaje</a></li>
-                                    <li class="menu-item"><a href="#">Logística Reversiva</a></li>
-                                    <li class="menu-item"><a href="#">Plantas de reciclaje certificadas</a></li>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Reciclaje</a></li>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Logística Reversiva</a></li>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Plantas de reciclaje certificadas</a></li>
                                 </ul>                            
                             </div>
                         </div>
@@ -376,13 +376,13 @@ document.onclick=reEnable
                         <div class="row">
                             <div class="col-phone-12">
                                 <ul id="menu-productos" class="clearfix">
-                                    <li class="menu-item"><a href="#">Tecnología</a>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Tecnología</a>
                                     </li>
-                                    <li class="menu-item"><a href="#">Ventajas Duracell</a>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Ventajas Duracell</a>
                                     </li>
-                                    <li class="menu-item"><a href="#">Categorías</a>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Categorías</a>
                                     </li>
-                                    <li class="menu-item"><a href="#">Línea de productos</a>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Línea de productos</a>
                                     </li>
                                 </ul>                            
                             </div>
@@ -393,11 +393,11 @@ document.onclick=reEnable
                         <div class="row">
                             <div class="col-phone-12">
                                 <ul id="menu-productos" class="clearfix">
-                                    <li class="menu-item"><a href="#">Centro de Servicio Duracell</a>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Centro de Servicio Duracell</a>
                                     </li>
-                                    <li class="menu-item"><a href="#">Quieres ser vendedor exclusivo Duracell</a>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Quieres ser vendedor exclusivo Duracell</a>
                                     </li>
-                                    <li class="menu-item"><a href="#">Descargables</a></li>
+                                    <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Descargables</a></li>
                                 </ul>                            
                             </div>
                         </div>
@@ -408,12 +408,12 @@ document.onclick=reEnable
                         <div class="row">
                             <div class="col-phone-12">
                                 <ul id="menu-productos" class="clearfix">
-                                  <li class="menu-item"><a href="#">Internacional </a></li>
-                                  <li class="menu-item"><a href="#">Contacto post venta </a></li>
-                                  <li class="menu-item"><a href="#">Quiero montar mi negocio </a></li>
-                                  <li class="menu-item"><a href="#">Venta a mayoreo</a></li>
-                                  <li class="menu-item"><a href="#">Otros países</a></li>
-                                  <li class="menu-item"><a href="#">Diagnostico</a></li>
+                                  <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Internacional </a></li>
+                                  <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Contacto post venta </a></li>
+                                  <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Quiero montar mi negocio </a></li>
+                                  <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Venta a mayoreo</a></li>
+                                  <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Otros países</a></li>
+                                  <li class="menu-item"><a href="https://www.duracell-la.com/optimum/">Diagnostico</a></li>
                                 </ul>                            
                             </div>
                         </div>
